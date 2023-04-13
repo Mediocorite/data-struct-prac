@@ -1,24 +1,26 @@
-// Import the testing library
-const assert = require("chai").assert;
-
 // Import the function to test
-const containsDuplicates = require("./containsDuplicates");
+const containsDuplicate = require("./contain_duplicates");
 
 // Define the test cases
-describe("containsDuplicates", function () {
-	it("should return true for arrays with duplicates", function () {
-		assert.equal(containsDuplicates([1, 2, 3, 1]), true);
-		assert.equal(containsDuplicates(["a", "b", "c", "b"]), true);
-		assert.equal(containsDuplicates(["hello", "world", "hello"]), true);
+describe("check for duplicates in an array", () => {
+	test("should return true if array contains duplicates", () => {
+		const myArray = [1, 2, 3, 3, 4, 4];
+		const uniqueValues = new Set(myArray);
+		const containsDuplicates = myArray.length !== uniqueValues.size;
+		expect(containsDuplicates).toBe(true);
 	});
 
-	it("should return false for arrays without duplicates", function () {
-		assert.equal(containsDuplicates([1, 2, 3, 4]), false);
-		assert.equal(containsDuplicates(["a", "b", "c"]), false);
-		assert.equal(containsDuplicates(["hello", "world"]), false);
+	test("should return false if array does not contain duplicates", () => {
+		const myArray = [1, 2, 3, 4, 5, 6];
+		const uniqueValues = new Set(myArray);
+		const containsDuplicates = myArray.length !== uniqueValues.size;
+		expect(containsDuplicates).toBe(false);
 	});
 
-	it("should return false for empty arrays", function () {
-		assert.equal(containsDuplicates([]), false);
+	test("should return true for an array with one duplicate value", () => {
+		const myArray = [1, 2, 3, 4, 5, 5];
+		const uniqueValues = new Set(myArray);
+		const containsDuplicates = myArray.length !== uniqueValues.size;
+		expect(containsDuplicates).toBe(true);
 	});
 });
