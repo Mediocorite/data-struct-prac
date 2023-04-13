@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-![Node JS Workflow](https://github.com/Mediocorite/data-struct-prac>/actions/workflows/node.js.yml/badge.svg)
+[![Node.js CI](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml)
 
 This repository contains solutions to various data structure and algorithm problems implemented in C, C++, Python, Java, and JavaScript.
 
