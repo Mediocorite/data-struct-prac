@@ -1,0 +1,22 @@
+{
+  "name": "data-struct-prac",
+  "version": "1.0.0",
+  "description": "This repository contains solutions to various data structure and algorithm problems implemented in C, C++, Python, Java, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mediocorite/data-struct-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mediocorite/data-struct-prac/issues"
+  },
+  "homepage": "https://github.com/Mediocorite/data-struct-prac#readme",
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
