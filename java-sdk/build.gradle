@@ -1,4 +1,4 @@
-plugins {
+git add -f gradle/wrapper/gradle-wrapper.jargit add -f gradle/wrapper/gradle-wrapper.jarplugins {
     id 'java'
 }
 
