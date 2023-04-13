@@ -6,7 +6,7 @@ This repository contains solutions to various data structure and algorithm probl
 
 To get started, simply clone this repository on your local machine:
 
-git clone https://github.com/<Mediocorite>/data-structures-and-algorithms.git
+git clone https://github.com/Mediocorite/data-structures-and-algorithms.git
 
 ## Contents
 
