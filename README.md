@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-[![Node.js CI](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml) [![Java CI with Gradle](https://github.com/Mediocorite/data-struct-prac/actions/workflows/gradle.yml/badge.svg)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/gradle.yml)
+[![Node.js CI](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml)
 
 This repository contains solutions to various data structure and algorithm problems implemented in C, C++, Python, Java, and JavaScript.
 
@@ -12,7 +12,7 @@ git clone https://github.com/Mediocorite/data-structures-and-algorithms.git
 
 ## Contents
 
-Due to this repository having five languages, and integration with github actions, the folder structure tends to be a bit vague. The following are links to the README files that will link you to the correct file.
+The repository is organized into folders, each representing a different data structure or algorithm. Inside each folder, you will find a README file with a description of the problem and its solution, as well as the implementation in different programming languages.
 
 Here is a list of the current folders and their contents:
 
