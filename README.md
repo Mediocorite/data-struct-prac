@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-[![Node.js CI](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/node.js.yml) [![Java CI with Gradle](https://github.com/Mediocorite/data-struct-prac/actions/workflows/gradle.yml/badge.svg)](https://github.com/Mediocorite/data-struct-prac/actions/workflows/gradle.yml)
 
 This repository contains solutions to various data structure and algorithm problems implemented in C, C++, Python, Java, and JavaScript.
 
