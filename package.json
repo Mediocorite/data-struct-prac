@@ -4,7 +4,7 @@
 	"description": "This repository contains solutions to various data structure and algorithm problems implemented in C, C++, Python, Java, and JavaScript.",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest --onlyChanged"
 	},
 	"repository": {
 		"type": "git",
