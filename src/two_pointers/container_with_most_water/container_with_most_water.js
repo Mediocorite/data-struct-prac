@@ -20,3 +20,5 @@ var maxArea = function (height) {
 
 	return maxVol;
 };
+
+module.exports = maxArea;

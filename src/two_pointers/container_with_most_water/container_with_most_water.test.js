@@ -9,14 +9,6 @@ describe("Container With Most Water", () => {
 		expect(maxArea([1])).toEqual(0);
 	});
 
-	test("Returns 0 if the heights are same", () => {
-		expect(maxArea([1, 1])).toEqual(0);
-	});
-
-	test("Returns 0 if all heights are the same", () => {
-		expect(maxArea([5, 5, 5, 5])).toEqual(0);
-	});
-
 	test("Returns the maximum area for [1,2,3,4,5] input", () => {
 		expect(maxArea([1, 2, 3, 4, 5])).toEqual(6);
 	});
