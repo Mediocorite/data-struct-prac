@@ -16,4 +16,8 @@ describe("lengthOfLongestSubstring", () => {
 	it("should return 0 for empty string input", () => {
 		expect(lengthOfLongestSubstring("")).toBe(0);
 	});
+
+	it(`should return 3 for input "dvdf" `, () => {
+		expect(lengthOfLongestSubstring("dvdf")).toBe(3);
+	});
 });

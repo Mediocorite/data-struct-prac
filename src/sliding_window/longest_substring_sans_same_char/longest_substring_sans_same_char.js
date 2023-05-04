@@ -2,33 +2,33 @@
  * @param {string} s
  * @return {number}
  */
-// "abcabcbb"
+// "dvdf";
 
 var lengthOfLongestSubstring = function (s) {
-	if (s.length === 0) return 0;
+	// The window will be opearted as dragging a
+	// set, such that left side of the set is
+	// left = 0; and right side is end of the set.
 
-	let [left, right, longestLenght] = [0, 1, 1];
+	// You keep moving the right side;
 
-	// Terminating condition: right exhausts
-	// lenght of the array s
+	let [left, longestLenght] = [0, 0];
 
-	let uniqueChar = new Set();
-	let currentLenght = 1;
+	let window = new Set();
 
-	while (right < s.length) {
-		let [charAtLeft, charAtRight] = [s.charAt(left), s.charAt(right)];
-		// We shift the pointers regardless
-		if (charAtLeft === charAtRight || uniqueChar.has(charAtRight)) {
-			uniqueChar = new Set();
-			currentLenght = 1;
-		} else {
-			currentLenght++;
-			uniqueChar.add(charAtRight);
-			if (!uniqueChar.has(charAtLeft)) uniqueChar.add(charAtLeft);
-			longestLenght = Math.max(longestLenght, currentLenght);
+	for (let right = 0; right < s.length; right++) {
+		let charAtRight = s.charAt(right);
+
+		// we eliminate all the strings until the
+		// the letter in the right string
+		while (window.has(charAtRight)) {
+			let charAtLeft = s.charAt(left);
+			window.delete(charAtLeft);
+			left++;
 		}
-		left++;
-		right++;
+
+		window.add(charAtRight);
+
+		longestLenght = Math.max(longestLenght, window.size);
 	}
 
 	return longestLenght;
